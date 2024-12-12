@@ -23,8 +23,6 @@ A *Java-based Ticket Booking System* designed to simulate a real-time ticket man
 | *Vendor.java*        | Implements the vendor thread.          |
 | *Customer.java*      | Implements the customer thread.        |
 | *CLI.java*          | Main driver program to execute.        |
-| *lib/*               | Contains external libraries (Log4j, Gson). |
-
 
 
 ### Classes
@@ -73,11 +71,7 @@ A *Java-based Ticket Booking System* designed to simulate a real-time ticket man
    - Ensure JDK 8 or above is installed on your system.
    - Add JAVA_HOME to your system's environment variables if not already set.
 
-2. *Required Libraries*
-   - [Log4j](https://logging.apache.org/log4j/2.x/download.html)
-   - [Gson](https://github.com/google/gson/releases)
-
-3. *Integrated Development Environment (IDE)*
+2. *Integrated Development Environment (IDE)*
    - Use an IDE like *IntelliJ IDEA* or any other Java I
 
 ### Running the Program
@@ -106,17 +100,5 @@ A *Java-based Ticket Booking System* designed to simulate a real-time ticket man
    - Logs display thread interactions and ticket transactions.
 
 ## Troubleshooting
-- *Missing Libraries:*  
-  Ensure log4j.jar and gson.jar are correctly added to the project dependencies in your IDE.
-
 - *Errors on Run:*  
   Verify that the CLI.java file is set as the entry point for the application.
-
-- *Logging Issues:*  
-  Double-check the placement and syntax of the log4j.properties file to ensure proper logging functionality.
-
-
-## Additional Notes
-- Modify the config.json file as needed before running the program to test different scenarios.
-- Ensure the log4j.properties file is correctly set up for logging output.
-- Logs are displayed in the console and can also be directed to a file as per the log4j.properties configuration.
